@@ -1,6 +1,6 @@
 export function RevenueCard({ title, amount, orderCount }) {
   return (
-    <>
+
         <div className=" bg-white shadow-md rounded p-3 m-3">
             <div className="flex text-gray-600 m-3">
                 <div className="text-left">{title}</div>
@@ -25,7 +25,7 @@ export function RevenueCard({ title, amount, orderCount }) {
                 ) : null}
             </div>
         </div>
-    </>
+
   );
 }
 

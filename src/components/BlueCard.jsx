@@ -1,6 +1,5 @@
 export function BlueCard({title,amount,orderCount}){
-    return <>
-        <div className="rounded m-3">
+    return <div className="rounded m-3">
             <div className=" bg-blue-600 shadow-md p-3">
                 <div className="flex m-3 text-gray-100">
                     <div className="text-left">{title}</div>
@@ -31,5 +30,5 @@ export function BlueCard({title,amount,orderCount}){
                 <div className="m-0">Today, 04:00 PM</div>
             </div>
         </div>
-    </>
+
 }
