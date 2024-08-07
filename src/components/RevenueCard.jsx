@@ -1,7 +1,7 @@
 export function RevenueCard({ title, amount, orderCount }) {
   return (
 
-        <div className=" bg-white shadow-md rounded p-3 m-3">
+        <div className=" bg-white shadow-md rounded p-3 m-3 h-fit">
             <div className="flex text-gray-600 m-3">
                 <div className="text-left">{title}</div>
                 <svg  class="size-6  w-4 h-4 ml-1 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
