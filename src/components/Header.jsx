@@ -30,7 +30,7 @@ export function Header() {
         {/* Search Bar */}
 
         <div className="">
-          <form className="max-w-full">
+          <form className="w-200">
             <label
               htmlFor="default-search"
               className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -58,7 +58,7 @@ export function Header() {
               <input
                 type="search"
                 id="default-search"
-                className="w-full p-2 pl-10 text-md
+                className="w-72 p-2 pl-10 text-md
                               text-gray-900 border rounded-lg bg-gray-200
                               focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 
                               dark:border-gray-600 dark:placeholder-gray-400 dark:text-white 
